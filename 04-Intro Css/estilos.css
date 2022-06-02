@@ -1,0 +1,26 @@
+h1 {
+    color: blue;
+}
+/*COMENTARIO*/
+p {
+    color: red;
+    font-size: 20px;
+}
+
+#hola2 {
+    color: pink;
+}
+
+#hola3 {
+    color: green;
+}
+
+.hola1 {
+    color: brown;
+    font-size: 30px;
+}
+
+.warning {
+    color: red;
+    
+}
