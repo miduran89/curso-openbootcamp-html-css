@@ -1,0 +1,77 @@
+body {
+    background-color: hsl(0, 3%, 14%);
+}
+
+.input {
+    width: 100%;
+    padding: 10px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.input[type="password"] {
+    color: blue;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid gold;
+    outline: none;
+    padding: 10px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.input-moderno::placeholder {
+    color: #c2c2c2;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid #5f5f5f;
+}
+
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.input-background::placeholder {
+    color: #ccc;
+
+}
+
+.input-search {
+    background-color: rgb(255, 255, 255);
+    border: none; 
+    padding: 10px;
+    padding-left: 40px;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #ccc;
+    background-image: url(/curso1-html-css/07-Formularios/IMG/icono.png);
+    background-repeat: no-repeat;
+    background-position: 15px;
+}
+
+.input-search::placeholder {
+    color: #ccc;
+}
+
+textarea {
+    resize: none;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
