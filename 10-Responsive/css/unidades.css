@@ -1,0 +1,33 @@
+body {
+    padding: 20px;
+    margin: 0;
+}
+
+.escenario {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.escenario-1 {
+    width: 100%;
+}
+
+.escenario-2 {
+    width: 50%;
+}
+
+.px {
+    background-color: green;
+    width: 200px; /*un ancho fijo no varia*/
+}
+
+.porcentaje {
+    background-color: red;
+    width: 50; /*hace referencia al elemento padre. en este caso div class escenario, el porcentaje en relacion al padre*/
+}
+
+.view {
+    background-color: yellow;
+    width: 50vw; /*hace referencia al ancho de la pantalla*/
+}
