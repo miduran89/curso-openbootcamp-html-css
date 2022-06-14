@@ -1,0 +1,50 @@
+.contenedor {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size: 2rem;
+}
+
+.seccion-izq {
+    display: flex;
+    align-items: center;
+    background-color: rgb(26, 199, 199);
+    padding: 10px;
+    width: 30vw;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+    
+.item {
+
+    background-color: rgb(250, 241, 114);
+    padding: 0.25rem;
+    width: 10rem;
+    justify-content: center;
+}
+
+.seccion-der {
+    display: flex;
+    width: 70vw;
+    align-items: center;
+    background-color: rgb(144, 209, 74);
+    justify-content: center;
+    padding: 10px;
+    flex-grow: 1;
+}  
+
+@media (max-width: 640px) {
+    .contenedor {
+        flex-direction: column-reverse;
+    }
+    .seccion-izq {
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100vw;
+        gap: 5px;
+    }
+    .seccion-der {
+        width: 100vw;
+    }
+}
